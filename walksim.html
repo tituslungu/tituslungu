@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<title>Titus Lungu- Walking Simulator</title>
+	<link href='https://fonts.googleapis.com/css?family=Inconsolata:400,700' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="walksim.css">
+	<link rel="stylesheet" href="animate.css">
+
+	<style type="text/css">
+	    ul{
+	        padding: 0;
+	        list-style: none;
+	        background: black;
+	        margin: 0px;
+	        position: fixed;
+	        width: 100%;
+	    }
+	    ul li{
+	        display: inline-block;
+	        position: relative;
+	        line-height: 21px;
+	        text-align: left;
+	    }
+	    ul li a{
+	        display: block;
+	        padding: 8px 25px;
+	        color: white;
+	        font-weight: bold;
+	        text-transform: uppercase;
+	        text-decoration: none;
+	        font-size: 20px;
+	    }
+	    ul li a:hover{
+	        color: black;
+	        background: white;
+	    }
+	    ul li ul.dropdown{
+	        min-width: 125px; /* Set width of the dropdown */
+	        background: black;
+	        display: none;
+	        position: absolute;
+	        z-index: 999;
+	        left: 0;
+	    }
+	    ul li:hover ul.dropdown{
+	        display: block;	/* Display the dropdown */
+	    }
+	    ul li ul.dropdown li{
+	        display: block;
+	    }
+	</style>
+</head>
+
+<body>
+	<div class="nav">
+		<ul>
+			<li><a href="index.html">Titus Lungu</a></li>
+			<li><a href="./documents/Resume.pdf" target="_blank">CV</a></li>
+
+			<li>
+				<a href="#">Research &#9662;</a>
+				<ul class="dropdown">
+					<li><a href="ml.html">Machine Learning</a></li>
+				</ul>
+			</li>
+
+			<li>
+				<a href="#">Projects &#9662;</a>
+				<ul class="dropdown">
+					<li><a href="asme.html">ASME</a></li>
+					<li><a href="walksim.html">Walking Simulator</a></li>
+					<li><a href="crime.html">Senior Design</a></li>
+				</ul>
+			</li>
+
+			<li>
+				<a href="#">Industry &#9662;</a>
+				<ul class="dropdown">
+					<li><a href="./documents/cristal.pdf" target="_blank">Cristal</a></li>
+					<li><a href="./documents/swagelok.pdf" target="_blank">Swagelok</a></li>
+				</ul>
+			</li>
+
+			<li>
+				<a href="#">Events & Outreach &#9662;</a>
+				<ul class="dropdown">
+					<li><a href="cside.html">Romania Humanitarian Aid</a></li>
+					<li><a href="univproc.html">University Proceedings</a></li>
+				</ul>
+			</li>
+
+			<li><a href="contact.html">Contact</a></li>
+		</ul>
+	</div>
+	
+	<div class="main">
+	<div class="csu">
+		<a href="http://www.csuohio.edu/" target="_blank">
+		<img src="./media/csulogo.jpg" height="120">
+		</a>
+	</div>
+	<div class="jumbotron">
+		<h1>Walking Simulator Mechanism</h1>
+		<h2>Cleveland State University</h2>
+	</div>
+	</div>
+	<div class="content">
+		<p>Designed a mechanism to simulate human walking motion.  Mechanism desigend for kinematics course with the scope of being used as a shoe testing platform. The paper below, <a href="http://engagedscholarship.csuohio.edu/tdr/vol2/iss2/4/" target="_blank">Walking Simulator Mechanism</a>, has been published in "The Downtown Review" at Cleveland State University.</p>
+	</div>
+	<div class="vid1">
+		<iframe width="640" height="360" src="https://www.youtube.com/embed/i5oul8CZkn4" frameborder="0" allowfullscreen></iframe>
+		<p><a href="https://www.youtube.com/watch?v=i5oul8CZkn4" target="_blank">Watch video on YouTube</a></p>
+	</div>
+	<div class="pdf">
+		<embed src="./documents/kinematics.pdf" width="750" height="900">
+		<p><a href="./documents/kinematics.pdf" target="_blank">Click here to open paper</a></p>
+	</div>
+		
+	<div class="learn-more">
+	<div class="twitter">
+		<a class="twitter-timeline" href="https://twitter.com/TitusLungu" data-widget-id="669079589998718976">Tweets by @TitusLungu</a>
+		<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+	</div>
+	
+	<div class="social">
+	<div class="twitter-butt">
+	<a href="https://twitter.com/share" class="twitter-share-button"{count} data-via="TitusLungu">Tweet</a>
+	<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+	</div>
+	
+	<div class="in-butt">
+	<script src="//platform.linkedin.com/in.js" type="text/javascript"> lang: en_US</script>
+	<script type="IN/Share" data-url="www.tituslungu.com" data-counter="top"></script>
+	</div>
+	
+	<div class="google-butt">
+	<script src="https://apis.google.com/js/platform.js" async defer></script>
+	<g:plusone size="tall"></g:plusone>
+	</div>
+	
+	<div id="fb-root"></div>
+	<script>(function(d, s, id) {
+	  var js, fjs = d.getElementsByTagName(s)[0];
+	  if (d.getElementById(id)) return;
+	  js = d.createElement(s); js.id = id;
+	  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.5&appId=619874201484812";
+	  fjs.parentNode.insertBefore(js, fjs);
+	}(document, 'script', 'facebook-jssdk'));</script>
+	
+	<div class="fb-like" data-href="https://www.tituslungu.com" data-layout="standard" data-action="like" data-show-faces="true" data-share="true" data-colorscheme="dark"></div >
+	</div>
+	
+	<div class="cc">
+		<p>&copy; 2015-2016 Titus Lungu. All rights reserved.</p>
+		<p><img src="./media/box2.gif" height="50"></p>
+	</div>
+	<div>
+		<h5>Photo credit: &copy; iStockphotos</h5>
+	</div>
+	</div>
+</body>
+</html>

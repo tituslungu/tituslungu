@@ -1,0 +1,149 @@
+.nav {
+  margin: 0px;
+  background-color: black;
+}
+
+body {
+  margin: 0px;
+}
+
+.jumbotron {
+  margin: 0px;
+  background-image:url("./media/Robotics.jpg");
+  height: 100%;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+.jumbotron h1 {
+  color: #fff;
+  font-size: 100px;  
+  font-family: 'Iconsolata', Bold 700;
+  font-weight: bold;
+  padding-left: 4%;
+  padding-top: 15%;
+  text-shadow: 5px 5px rgb(0,0,0);
+  margin: 0px;
+}
+
+.jumbotron p {
+  margin: 0px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  font-size: 55px;
+  color: #fff;
+  padding-left: 4%;
+  text-shadow: 5px 5px rgb(0,0,0);
+}
+
+div.rollin h1:nth-child(1) {
+    animation: rollIn 2s;
+}
+div.slideinright p:nth-child(1) {
+    animation: slideInRight 3s;
+}
+div.slideinright p:nth-child(2) {
+    animation: slideInRight 4s;
+}
+div.slideinright p:nth-child(3) {
+    animation: slideInRight 5s;
+}
+
+.jumbotron h2 {
+  margin: 0px;
+  font-size: 15px;
+  color: black;
+  text-align: right;
+  padding-top: 227px;
+}
+
+.jumbotron img {
+  margin: 0px;
+  margin-top: 45px;
+  position: absolute;
+  right: 0.5%;
+  z-index: 0;
+}
+
+.current {
+  background-color: black;
+  margin: 0px;
+  padding-top: 1%;
+  padding-bottom: 3%;
+  padding-right: 3%;
+  padding-left: 3%;
+}
+
+.current h1 {
+  margin: 0px;
+  font-size: 40px;
+  color: white;
+  text-align: justify;
+  padding: 0px;
+}
+
+.current p {
+  margin: 0px;
+  font-size: 25px;
+  color: white;
+  text-align: justify;
+  padding-top: 30px;
+  padding-bottom: 0px;
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+.cc {
+margin: 0px;
+}
+
+.cc p {
+display: inline;
+margin: 0px;
+font-size: 20px;
+color: white;
+text-align: left;
+}
+		
+h5 {
+margin: 0px;
+font-size: 15px;
+color: white;
+position: relative;
+bottom: 0;
+text-align: right;
+}
+
+.twitter {
+margin-right: 0%;
+margin-left: 10%;
+margin-top: 0px;
+margin-bottom: 57px;
+padding-top: 30px;
+}
+
+.social div {
+margin: 0px;
+display: inline-block;
+}
+
+.social {
+margin-right: 0px;
+margin-left: 0px;
+margin-top: 0px;
+margin-bottom: 0px;
+}
+
+.learn-more {
+margin: 0px;
+background-image: url("./media/Capture.JPG");
+height: 100%;
+width: 100%;
+background-repeat: no-repeat;
+background-size: cover;
+background-attachment: fixed;
+background-position: center;
+}

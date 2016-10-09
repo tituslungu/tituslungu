@@ -1,0 +1,294 @@
+.nav {
+  background-color: black;
+  margin: 0px;
+}
+
+body {
+  margin: 0px;
+}
+
+.main1 {
+  display: table;
+  margin: auto;
+  padding-top: 80px;
+}
+
+.jumbotron1 {
+  margin: 0px;
+  padding-bottom: 50px;
+  background-color: #FFFFFF;
+  display: inline-block;
+  padding-left: 25px;
+}
+
+.pic {
+  display: inline-block;
+  margin: auto;
+  background-color: #FFFFFF;
+}
+
+.jumbotron1 h1 {
+  margin: 0px;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 30px;
+  text-align: center;
+}
+
+.jumbotron1 h2 {
+  margin: 0px;
+  font-size: 25px;
+  text-align: center;
+}
+
+.main2 {
+  display: table;
+  margin-right: 20%;
+  margin-left: 13%;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-top: 500px;
+}
+
+.jumbotron2 {
+  margin: 0px;
+  padding-bottom: 50px;
+  background-color: #FFFFFF;
+  display: inline-block;
+  padding-left: 25px;
+}
+
+.pic_2 {
+  display: inline-block;
+  margin: auto;
+  background-color: #FFFFFF;
+}
+
+.jumbotron2 h1 {
+  margin: 0px;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 30px;
+  text-align: center;
+}
+
+.jumbotron2 h2 {
+  margin: 0px;
+  font-size: 25px;
+  text-align: center;
+}
+
+.jumbotron2 h3 {
+  margin: 0px;
+  font-size: 25px;
+  text-align: center;
+}
+
+.pic1 p:nth-child(1) {
+  display: table;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+  text-align: justify;
+  font-size: 20px;
+}
+
+.pic1 p:nth-child(3) {
+  margin: 0px;
+  padding-bottom: 15px;
+  font-size: 16px;
+  text-align: center;
+}
+
+.pic1 img{
+  display: table;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 75px;
+  margin-bottom: 0px;
+  transform: rotate(90deg);
+  position: absolute;
+  left: 0;
+  right: 0;
+  z-index: -1;
+}
+
+.pic2 {
+  display: table;
+  margin: auto;
+}
+
+.pic2 p:nth-child(1) {
+  display: table;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  text-align: justify;
+  font-size: 20px;
+}
+
+.pic2 p:nth-child(3) {
+  margin: 0px;
+  padding-bottom: 15px;
+  font-size: 16px;
+  text-align: center;
+}
+
+.pic2 iframe {
+  display: table;
+  margin: auto;
+  padding-top: 25px;
+  padding-bottom: 5px;
+}
+
+.pic3 {
+  display: table;
+  margin: auto;
+}
+
+.pic3 img {
+  display: inline-block;
+  margin: 20px;
+  /*max-width: 25%;
+  max-height: 25%;*/
+  vertical-align: middle;
+}
+
+.pic4 {
+  display: table;
+  margin: auto;
+  padding-bottom: 35px;
+}
+
+.pic4 h1 {
+  display: block;
+  margin-left: 33%;
+  margin-right: 30%;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  text-align: left;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.pic4 p {
+  display: table;
+  margin-left: 33%;
+  margin-right: 30%;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  text-align: justify;
+  font-size: 20px;
+}
+
+.main3 {
+  display: table;
+  margin: auto;
+  padding-top: 80px;
+}
+
+.jumbotron3 {
+  margin: 0px;
+  padding-bottom: 50px;
+  background-color: #FFFFFF;
+  display: inline-block;
+  padding-left: 25px;
+}
+
+.pic_3 {
+  display: inline-block;
+  margin: auto;
+  background-color: #FFFFFF;
+}
+
+.jumbotron3 h1 {
+  margin: 0px;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 30px;
+  text-align: center;
+}
+
+.jumbotron3 h2 {
+  margin: 0px;
+  font-size: 25px;
+  text-align: center;
+}
+
+.pic5 {
+  display: table;
+  margin: auto;
+}
+
+.pic5 p {
+  display: table;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  text-align: justify;
+  font-size: 20px;
+}
+
+.pic5 img {
+  display: table;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.cc {
+  margin: 0px;
+}
+
+.cc p {
+  display: inline;
+  margin: 0px;
+  font-size: 20px;
+  color: white;
+  text-align: left;
+}
+
+h5 {
+  margin: 0px;
+  font-size: 15px;
+  color: white;
+  position: relative;
+  bottom: 0;
+  text-align: right;
+}
+
+.twitter {
+  margin-right: 0%;
+  margin-left: 10%;
+  margin-top: 0px;
+  margin-bottom: 57px;
+  padding-top: 30px;
+}
+
+.social div {
+  margin: 0px;
+  display: inline-block;
+}
+
+.social {
+  margin-right: 0px;
+  margin-left: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.learn-more {
+  margin: 0px;
+  background-image: url("./media/Capture.JPG");
+  height: 100%;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+}
