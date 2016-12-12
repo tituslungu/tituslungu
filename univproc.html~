@@ -3,9 +3,9 @@
 
 <head>
 	<meta charset="UTF-8">
-	<title>Titus Lungu- Contact</title>
+	<title>Titus Lungu- University Proceedings</title>
 	<link href='https://fonts.googleapis.com/css?family=Inconsolata:400,700' rel='stylesheet' type='text/css'>
-	<link rel="stylesheet" href="contact.css">
+	<link rel="stylesheet" href="univproc.css">
 	<link rel="stylesheet" href="animate.css">
 
 	<style type="text/css">
@@ -95,27 +95,74 @@
 		</ul>
 	</div>
 	
-	<div class="main">
-	<div class="jumbotron">
-		<h1>Email: tituslungu@gmail.com</h1>
-		<a href="https://www.linkedin.com/in/titus-lungu-bb097262" target="_blank">
-		<img src="./media/linkedin.png" height="100">
-		</a>
-		<p><a href="https://www.linkedin.com/in/titus-lungu-bb097262" target="_blank">Click for LinkedIn Profile</a></p>
-	</div>
+	<div class="main1">
 	<div class="pic">
-		<!-- Do not change the code! -->
-		<a id="foxyform_embed_link_724670" href="http://www.foxyform.com/">foxyform</a>
-		<script type="text/javascript">
-		(function(d, t){
-			var g = d.createElement(t),
-				s = d.getElementsByTagName(t)[0];
-			g.src = "http://www.foxyform.com/js.php?id=724670&sec_hash=512202268ae&width=350px";
-			s.parentNode.insertBefore(g, s);
-		}(document, "script"));
-		</script>
-		<!-- Do not change the code! -->
+		<a href="http://www.csuohio.edu/" target="_blank">
+		<img src="./media/csulogo.jpg" height="100">
+		</a>
 	</div>
+	
+	<div class="jumbotron1">
+		<h1>Deans Diversity Council</h1>
+		<h2>Cleveland State University</h2>
+	</div>
+	</div>
+	<div class="pic1">
+		<p>From 2014-2015, I served as the ASME representative on the Engineering Dean’s Diversity Council at Cleveland State, where we organized events to ensure the inclusion of underrepresented groups and developed an industry led mentoring program for students.  The mentoring program pairs engineering students with industry engineers to provide tailored guidance and one-on-one support for students in everything from career building to time management and studying tips.  Due to our initiatives, we received the President’s Award for Excellence in Diversity from the university.</p>
+		<img src="./media/ddc.jpg" height="300">
+		<p><a href="http://www.tituslungu.com/media/ddc.jpg" target="_blank">Open Award</a></p>
+	</div>
+	
+	<div class="main2">
+	<div class="pic_2">
+		<a href="https://www.csuohio.edu/honors/home" target="_blank">
+		<img src="./media/honlogo.jpg" height="50">
+		</a>
+	</div>
+	<div class="jumbotron2">
+		<h1>Jack, Joseph & Morton Mandel Honors College</h1>
+		<h2>Dedication Ceremony</h2>
+		<h3>Cleveland State University</h3>
+	</div>
+	</div>
+	<div class="pic2">
+		<p>I am honored to have been the student speaker at the Honors College dedication ceremony on November 9, 2015. Thank you to Dean Lehfeldt for asking me to give my remarks and a special thank you the the Mandel Foundation for their generous gift of $3.6 million to the Honors College!</p>
+		<iframe width="640" height="360" src="https://www.youtube.com/embed/QBJzB5IPu5o" frameborder="0" allowfullscreen></iframe>
+		<p><a href="https://www.youtube.com/watch?v=QBJzB5IPu5o" target="_blank">Watch video on YouTube</a></p>
+	</div>
+	<div class="pic3">
+		<a href="http://www.tituslungu.com/media/hon1.jpg" target="_blank">
+		<img src="./media/hon1.jpg" height="300">
+		</a>
+		<a href="http://www.tituslungu.com/media/hon3.jpg" target="_blank">
+		<img src="./media/hon3.jpg" height="300">
+		</a>
+		<a href="https://www.mandelfoundation.org" target="_blank">
+		<img src="./media/hon2.jpg" height="300">
+		</a>
+	</div>
+	<div class="pic4">
+		<h1>Left to right:</h1>
+		<p>President Emeritus Michael Schwartz, CSU President Ronald M. Berkman, Titus Lungu, Mr. Morton Mandel, Honors Dean Elizabeth Lehfeldt.</p>
+	</div>
+	
+	<div class="main3">
+	<div class="pic_3">
+		<a href="http://www.iuc-ohio.org/" target="_blank">
+		<img src="./media/iuclogo.JPG" height="100">
+		</a>
+	</div>
+	
+	<div class="jumbotron3">
+		<h1>Inter-University Council</h1>
+		<h2>Ohio Statehouse</h2>
+	</div>
+	</div>
+	<div class="pic5">
+		<p>On April 11-12, 2016 a group of colleagues and myself attended the Inter-University Council of Ohio meeting at the statehouse in Columbus.  We met with state senators and representatives to discuss funding, educational, and social issues affecting Ohio public universities.</p>
+		<a href="http://www.tituslungu.com/media/columbus1.jpg" target="_blank">
+		<img src="./media/columbus1.jpg" height="400">
+		</a>
 	</div>
 	
 	<div class="learn-more">
@@ -123,7 +170,7 @@
 		<a class="twitter-timeline" href="https://twitter.com/TitusLungu" data-widget-id="669079589998718976">Tweets by @TitusLungu</a>
 		<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 	</div>
-
+	
 	<div class="social">
 	<div class="twitter-butt">
 	<a href="https://twitter.com/share" class="twitter-share-button"{count} data-via="TitusLungu">Tweet</a>
@@ -153,7 +200,7 @@
 	</div>
 	
 	<div class="cc">
-		<p>&copy; 2015-2017 Titus Lungu. All rights reserved.</p>
+		<p>&copy; 2015-2016 Titus Lungu. All rights reserved.</p>
 		<p><img src="./media/box2.gif" height="50"></p>
 	</div>
 	<div>
