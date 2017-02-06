@@ -286,28 +286,6 @@ body {
   text-align: center;
 }
 
-.pdfdoc {
-  display: table;
-  margin: auto;
-}
-
-.pdflink {
-  display: table;
-  margin: auto;
-}
-
-.pdfdoc iframe {
-  display: inline-block;
-  margin: auto;
-  padding-bottom: 20px;
-  background-color: #FFFFFF;
-}
-.pdflink p {
-  display: inline-block;
-  margin: auto;
-  font-size: 15px;
-}
-
 .vid2 {
   display: table;
   margin: auto;
