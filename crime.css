@@ -286,36 +286,23 @@ body {
   text-align: center;
 }
 
-.pdf1 {
+.pdfdoc {
   display: table;
   margin: auto;
 }
 
-.pdf2 {
+.pdflink {
   display: table;
   margin: auto;
 }
 
-.pdf1 iframe {
+.pdfdoc iframe {
   display: inline-block;
   margin: auto;
   padding-bottom: 20px;
   background-color: #FFFFFF;
 }
-.pdf2 iframe {
-  display: inline-block;
-  margin: auto;
-  padding-bottom: 20px;
-  background-color: #FFFFFF;
-}
-
-.pdf1 p {
-  display: inline-block;
-  margin: auto;
-  font-size: 15px;
-}
-
-.pdf2 p {
+.pdflink p {
   display: inline-block;
   margin: auto;
   font-size: 15px;
