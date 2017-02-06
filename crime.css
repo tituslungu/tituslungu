@@ -287,12 +287,22 @@ body {
 }
 
 .pdf1 {
+  display: table;
+  margin: auto;
+}
+
+.pdf2 {
+  display: table;
+  margin: auto;
+}
+
+.pdf1 iframe {
   display: inline-block;
   margin: auto;
   padding-bottom: 20px;
   background-color: #FFFFFF;
 }
-.pdf2 {
+.pdf2 iframe {
   display: inline-block;
   margin: auto;
   padding-bottom: 20px;
