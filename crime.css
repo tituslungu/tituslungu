@@ -286,7 +286,35 @@ body {
   text-align: center;
 }
 
+.pdfdoc {
+  display: table;
+  margin: auto;
+}
 
+.pdfdoc iframe {
+  display: inline-block;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-right: 40px;
+  margin-left: 40px;
+}
+
+.pdflink {
+  display: table;
+  margin: auto;
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-top: 0px;
+  padding-bottom: 50px;
+}
+
+.pdflink p {
+  display: inline-block;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-right: 275px;
+  margin-left: 275px;
+}
 
 .vid2 {
   display: table;
