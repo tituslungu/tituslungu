@@ -286,6 +286,16 @@ body {
   text-align: center;
 }
 
+.pdf .pdf1 {
+  display: inline-block;
+  margin: auto;
+}
+
+.pdf .pdf2 {
+  display: inline-block;
+  margin: auto;
+}
+
 .vid2 {
   display: table;
   margin: auto;
