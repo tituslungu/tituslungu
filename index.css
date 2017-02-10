@@ -23,7 +23,7 @@ body {
   font-family: 'Iconsolata', Bold 700;
   font-weight: bold;
   padding-left: 4%;
-  padding-top: 15%;
+  padding-top: 0px;
   text-shadow: 5px 5px rgb(0,0,0);
   margin: 0px;
 }
@@ -60,11 +60,12 @@ div.slideinright p:nth-child(2) {
 }
 
 .jumbotron img {
+  display: inline-block;
   margin: 0px;
-  margin-top: 45px;
-  position: absolute;
-  right: 0.5%;
-  z-index: 0;
+  margin-top: 80px;
+  margin-left: 45%;
+  padding: 0px;
+  border-radius: 1000px;
 }
 
 .current {
