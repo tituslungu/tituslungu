@@ -17,6 +17,12 @@ body {
   background-attachment: fixed;
 }
 
+div.nothing {
+  margin: 0px
+  padding: 0px;
+  padding-bottom: 80px;
+}
+
 .jumbotron h1 {
   color: #fff;
   font-size: 100px;  
@@ -60,10 +66,8 @@ div.slideinright p:nth-child(2) {
 }
 
 .jumbotron img {
-  display: inline-block;
-  margin: 0px;
-  margin-top: 80px;
-  margin-left: 45%;
+  display: block;
+  margin: auto;
   padding: 0px;
   border-radius: 1000px;
 }
