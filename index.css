@@ -10,6 +10,7 @@ body {
 .jumbotron {
   margin: 0px;
   background-image:url("./media/Robotics.jpg");
+  background-position: absolute;
   height: 100%;
   width: 100%;
   background-repeat: no-repeat;
