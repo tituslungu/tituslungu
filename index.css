@@ -76,6 +76,13 @@ div.funpic img {
   border-radius: 1000px;
 }
 
+.preload * {
+  -webkit-transition: none !important;
+  -moz-transition: none !important;
+  -ms-transition: none !important;
+  -o-transition: none !important;
+}
+
 .current {
   background-color: black;
   margin: 0px;
