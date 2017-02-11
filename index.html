@@ -36,7 +36,9 @@ if it's not present, don't show loader */
 	$(window).load(function() {
 		// Animate loader off screen
 		$(".se-pre-con").fadeOut("fast");
-		$("body").removeClass("preload");
+		$("#element-to-animate").addClass(".jumbotron .funpic");
+    	$("#element-to-animate").addClass(".jumbotron .rollin"); 
+    	$("#element-to-animate").addClass(".jumbotron .slideinright"); 
 	});
 </script>
 
@@ -104,8 +106,6 @@ if it's not present, don't show loader */
 
 <body>
 	<div class="se-pre-con"></div>
-
-	<div class="preload"></div>
 
 	<div class="nav">
 		<ul>
@@ -184,8 +184,8 @@ if it's not present, don't show loader */
 	    </div>
 	    <div class="slideinright">
 		    <!--<p>AI Engineer.</p>-->
-		    <p>Roboticist.</p>
-		    <p>Entrepreneur.</p>
+		    <p>Roboticist</p>
+		    <p>Entrepreneur</p>
 	    </div>
 		<h2>Photo credit: &copy; TechNavio</h2>
 	</div>
