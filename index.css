@@ -66,6 +66,7 @@ div.slideinright p:nth-child(2) {
 }
 
 .jumbotron img {
+  animation: zoomInDown 3s;
   display: block;
   margin: auto;
   padding: 0px;
