@@ -126,7 +126,7 @@ body {
 
 @media only screen
      and (min-width : 320px)
-     and (max-width : 1080px){ .pic1 p:nth-child(1) { display: table; margin-left: 5%; margin-right: 5%; margin-top: 0px; margin-bottom: 0px; padding-bottom: 0px; text-align: justify; font-size: 20px;}}
+     and (max-width : 1080px){ .pic1 p:nth-child(1) { display: table; margin-left: 5%; margin-right: 5%; margin-top: 0px; margin-bottom: 0px; padding-bottom: 0px; text-align: justify; font-size: 12px;}}
 
 .pic1 p:nth-child(3) {
   margin: 0px;
@@ -161,7 +161,7 @@ body {
 
 @media only screen
      and (min-width : 320px)
-     and (max-width : 1080px){ .pic2 p:nth-child(1) { display: table; margin-left: 5%; margin-right: 5%; margin-top: 0px; margin-bottom: 0px; text-align: justify; font-size: 20px;}}
+     and (max-width : 1080px){ .pic2 p:nth-child(1) { display: table; margin-left: 5%; margin-right: 5%; margin-top: 0px; margin-bottom: 0px; text-align: justify; font-size: 12px;}}
 
 .pic2 p:nth-child(3) {
   margin: 0px;
@@ -292,7 +292,7 @@ body {
 
 @media only screen
      and (min-width : 320px)
-     and (max-width : 1080px){ .pic5 p { display: table; margin: 0px; margin-right: 5%; margin-left: 5%; text-align: justify; font-size: 20px;}}
+     and (max-width : 1080px){ .pic5 p { display: table; margin: 0px; margin-right: 5%; margin-left: 5%; text-align: justify; font-size: 12px;}}
 
 .pic5 img {
   display: table;
