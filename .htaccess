@@ -1,15 +1,12 @@
 DirectoryIndex index.html
 
 RewriteEngine on
-RewriteCond %{REQUEST_FILENAME} !-d          # is not directory
-RewriteCond %{REQUEST_FILENAME}\.html -f     # is an existing html file
-RewriteRule ^(.*)$ $1.html                   # rewrite index to index.html
 
-# Redirects domain.com/file.html to domain.com/file
-RewriteCond %{REQUEST_FILENAME} !-d          # is not directory
-RewriteCond %{REQUEST_FILENAME}\.html -f     # is an existing html file
-RewriteCond %{REQUEST_URI} ^(.+)\.html$      # request URI ends with .html
-RewriteRule (.*)\.html$ /$1 [R=301,L]        # redirect from index.html to index
+#if foo requested, return foo.html contents
+RewriteCond %{DOCUMENT_ROOT}%{REQUEST_URI} !-d
+RewriteCond %{DOCUMENT_ROOT}%{REQUEST_URI}\.html -f
+RewriteRule ^(.*)$ $1.html [L]
 
+#redirect foo.html to foo
 RewriteCond %{DOCUMENT_ROOT}%{REQUEST_URI} !-d
 RewriteRule ^(.+)\.html$ $1 [R,L]
