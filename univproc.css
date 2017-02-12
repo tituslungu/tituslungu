@@ -33,7 +33,7 @@ body {
 
 @media only screen
      and (min-width : 320px)
-     and (max-width : 1080px){ .pic img { height: 92px;}}
+     and (max-width : 1080px){ .pic img { height: 110px;}}
 
 .jumbotron1 h1 {
   margin: 0px;
@@ -78,12 +78,8 @@ body {
 }
 
 .pic_2 img {
-  height: 50px;
+  height: 70px;
 }
-
-@media only screen
-     and (min-width : 320px)
-     and (max-width : 1080px){ .pic_2 img { height: 45px;}}
 
 .jumbotron2 h1 {
   margin: 0px;
@@ -145,7 +141,7 @@ body {
   margin-right: auto;
   margin-top: 25px;
   margin-bottom: 45px;
-  height: 300px;
+  height: 400px;
 }
 
 .pic2 {
@@ -195,7 +191,7 @@ body {
 
 @media only screen
      and (min-width : 320px)
-     and (max-width : 1080px){ .pic3 img { display: inline-block; margin: 5px; vertical-align: middle; height: 170px;}}
+     and (max-width : 1080px){ .pic3 img { display: inline-block; margin: 5px; vertical-align: middle; height: 185px;}}
 
 
 .pic4 {
@@ -254,12 +250,8 @@ body {
 }
 
 .pic_3 img {
-  height: 100px;
+  height: 120px;
 }
-
-@media only screen
-     and (min-width : 320px)
-     and (max-width : 1080px){ .pic_3 img { height: 100px;}}
 
 .jumbotron3 h1 {
   margin: 0px;
@@ -308,6 +300,7 @@ body {
   margin-left: auto;
   margin-top: 20px;
   margin-bottom: 20px;
+  height: 500px;
 }
 
 .cc {
