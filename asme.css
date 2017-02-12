@@ -28,11 +28,29 @@ body {
   background-color: #FFFFFF;
 }
 
+.pic img {
+  height: 100px;
+  width: 163px;
+}
+
+@media only screen
+     and (min-width : 320px)
+     and (max-width : 1080px){ .pic img { height: 75px; width: 122px;}}
+
 .csu {
   margin: 0px;
   background-color: #FFFFFF;
   display: inline-block;
 }
+
+.csu img {
+  height: 130px;
+  width: 130px;
+}
+
+@media only screen
+     and (min-width : 320px)
+     and (max-width : 1080px){ .csu img { height: 92px; width: 92px;}}
 
 .jumbotron h1 {
   margin: 0px;
@@ -42,11 +60,19 @@ body {
   text-align: center;
 }
 
+@media only screen
+     and (min-width : 320px)
+     and (max-width : 1080px){ .jumbotron h1 { margin: 0px; text-transform: uppercase; font-weight: bold; font-size: 22px; text-align: center;}}
+
 .jumbotron h2 {
   margin: 0px;
   font-size: 25px;
   text-align: center;
 }
+
+@media only screen
+     and (min-width : 320px)
+     and (max-width : 1080px){ .jumbotron h2 { margin: 0px; font-size: 20px; text-align: center;}}
 
 .title1 {
   display: table;
@@ -61,7 +87,12 @@ body {
   margin-top: 0px;
   margin-bottom: 0px;
   padding-bottom: 15px;
+  font-size: 33px;
 }
+
+@media only screen
+     and (min-width : 320px)
+     and (max-width : 1080px){ .title1 h1 { margin: 0px; margin-left: 5%; padding-bottom: 15px; font-size: 22px;}}
 
 .title1 p {
   margin-left: 17%;
@@ -72,11 +103,25 @@ body {
   text-align: justify;
 }
 
+@media only screen
+     and (min-width : 320px)
+     and (max-width : 1080px){ .title1 p { margin-left: 5%; margin-right: 5%; margin-top: 0px; margin-bottom: 0px; font-size: 18px; text-align: justify;}}
+
 .vid1 {
   display: table;
   margin: auto;
   margin-bottom: 20px;
 }
+
+.vid1 iframe {
+  height: 250px;
+  width: 640px;
+}
+
+@media only screen
+     and (min-width : 320px)
+     and (max-width : 1080px){ .vid1 iframe { height: 220px; width: 600px;}}
+
 
 .vid1 p {
   margin: 0px;
@@ -89,7 +134,13 @@ body {
 .pic1 img {
   display: table;
   margin: auto;
+  height: 450px;
 }
+
+
+@media only screen
+     and (min-width : 320px)
+     and (max-width : 1080px){ .pic1 img { display: table; margin: auto; height: 300px;}}
 
 .pic1 p {
   margin: 0px;
@@ -110,7 +161,12 @@ body {
   margin-right: 20px;
   margin-left: 20px;
   margin-bottom: 0px;
+  height: 450px;
 }
+
+@media only screen
+     and (min-width : 320px)
+     and (max-width : 1080px){ .pic2 img { display: inline-block; margin-top: 20px; margin-right: 20px; margin-left: 20px; margin-bottom: 0px; height: 300px;}}
 
 .pic2 p {
   margin: 0px;
@@ -132,7 +188,12 @@ body {
   margin-left: 20px;
   margin-bottom: 0px;
   vertical-align: middle;
+  height: 300px;
 }
+
+@media only screen
+     and (min-width : 320px)
+     and (max-width : 1080px){ .pic3 img { display: inline-block; margin-top: 20px; margin-left: 20px; margin-right: 20px; margin-bottom: 0px; vertical-align: middle; height: 200px;}}
 
 .pic3 p {
   margin: 0px;
@@ -155,10 +216,26 @@ body {
   font-weight: bold;
 }
 
-.pic6 img, vid {
+.pic6 img {
   display: inline-block;
-  margin: 0px;
+  margin: 10px;
+  height: 350px;
 }
+
+@media only screen
+     and (min-width : 320px)
+     and (max-width : 1080px){ .pic6 img { display: inline-block; margin: 10px; height: 200px;}}
+
+.pic6 iframe {
+  display: inline-block;
+  margin: 10px;
+  height: 360px;
+  width: 400px;
+}
+
+@media only screen
+     and (min-width : 320px)
+     and (max-width : 1080px){ .pic6 iframe { display: inline-block; margin: 10px; height: 300px; width: 230px;}}
 
 .pic6 p:nth-child(4) {
   margin: 0px;
@@ -170,23 +247,37 @@ body {
 
 .title2 {
   display: table;
-  margin-right: 20%;
-  margin-left: 20%;
+  margin-right: 0px;
+  margin-left: 17%;
   margin-bottom: 0px;
   margin-top: 30px;
   padding-bottom: 20px;
   background-color: #FFFFFF;
 }
 
+@media only screen
+     and (min-width : 320px)
+     and (max-width : 1080px){ .title2 { display: table; margin-right: 5%; margin-left: 5%; margin-bottom: 0px; margin-top: 30px; padding-bottom: 20px; background-color: #FFFFFF;}}
+
 .title2 h1 {
   margin: 0px;
   padding-bottom: 15px;
+  font-size: 33px;
 }
+
+@media only screen
+     and (min-width : 320px)
+     and (max-width : 1080px){ .title2 h1 { margin: 0px; padding-bottom: 15px; font-size: 22px;}}
 
 .title2 h2 {
   margin: 0px;
   padding-bottom: 15px;
+  font-size: 25px;
 }
+
+@media only screen
+     and (min-width : 320px)
+     and (max-width : 1080px){ .title2 h2 { margin: 0px; padding-bottom: 15px; font-size: 18px;}}
 
 .title2 p {
   margin: 0px;
@@ -200,15 +291,39 @@ body {
   padding-bottom: 35px;
 }
 
+.pic4 img {
+  height: 450px;
+}
+
+@media only screen
+     and (min-width : 320px)
+     and (max-width : 1080px){ .pic4 img { height: 300px;}}
+
 .pic5 {
   display: table;
   margin: auto;
 }
 
-.pic5 img, vid {
+.pic5 img {
   display: inline-block;
   margin: 20px;
+  height: 550px;
 }
+
+@media only screen
+     and (min-width : 320px)
+     and (max-width : 1080px){ .pic5 img { display: inline-block; margin: 10px; height: 400px;}}
+
+.pic5 iframe {
+  display: inline-block;
+  margin: 20px;
+  height: 550px;
+  width: 500px;
+}
+
+@media only screen
+     and (min-width : 320px)
+     and (max-width : 1080px){ .pic5 iframe { display: inline-block; margin: 10px; height: 400px; width: 320px;}}
 
 .pic5 p:nth-child(3) {
   margin: 0px;
@@ -228,18 +343,27 @@ body {
 
 .title3 {
   display: table;
-  margin-right: 20%;
-  margin-left: 20%;
+  margin-right: 0px;
+  margin-left: 17%;
   margin-bottom: 0px;
   margin-top: 0px;
   padding-bottom: 20px;
   background-color: #FFFFFF;
 }
 
+@media only screen
+     and (min-width : 320px)
+     and (max-width : 1080px){ .title3 { display: table; margin-right: 5%; margin-left: 5%; margin-bottom: 0px; margin-top: 0px; padding-bottom: 20px; background-color: #FFFFFF;}}
+
 .title3 h1 {
   margin: 0px;
   padding-bottom: 15px;
+  font-size: 33px;
 }
+
+@media only screen
+     and (min-width : 320px)
+     and (max-width : 1080px){ .title3 h1 { margin: 0px; padding-bottom: 15px; font-size: 22px;}}
 
 .title3 p {
   margin: 0px;
@@ -256,7 +380,12 @@ body {
 .pic7 img {
   display: inline-block;
   margin: 20px;
+  height: 450px;
 }
+
+@media only screen
+     and (min-width : 320px)
+     and (max-width : 1080px){ .pic7 img { display: inline-block; margin: 10px; height: 250px;}}
 
 .pic7 p {
   margin: 0px;
