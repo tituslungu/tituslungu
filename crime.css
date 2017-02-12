@@ -46,11 +46,19 @@ body {
   text-align: center;
 }
 
+@media only screen
+     and (min-width : 320px)
+     and (max-width : 1080px){ .jumbotron h1 { margin: 0px; text-transform: uppercase; font-weight: bold; font-size: 22px; text-align: center;}}
+
 .jumbotron h2 {
   margin: 0px;
   font-size: 25px;
   text-align: center;
 }
+
+@media only screen
+     and (min-width : 320px)
+     and (max-width : 1080px){ .jumbotron h2 { margin: 0px; font-size: 20px; text-align: center;}}
 
 .jumbotron h3 {
   margin: 0px;
@@ -58,15 +66,23 @@ body {
   text-align: center;
 }
 
+@media only screen
+     and (min-width : 320px)
+     and (max-width : 1080px){ .jumbotron h3 { margin: 0px; font-size: 20px; text-align: center;}}
+
 .content {
   display: table;
-  margin-left: 22%;
-  margin-right: 22%;
+  margin-left: 17%;
+  margin-right: 17%;
   margin-top: 0px;
   margin-bottom: 0px;
   padding-bottom: 20px;
   background-color: #FFFFFF;
 }
+
+@media only screen
+     and (min-width : 320px)
+     and (max-width : 1080px){ .content { display: table; margin: 0px; margin-left: 5%; margin-right: 5%; padding-bottom: 20px; background-color: #FFFFFF;}}
 
 .content p {
   margin: 0px;
@@ -80,12 +96,25 @@ body {
   margin-bottom: 20px;
 }
 
+.vid1 iframe {
+  height: 360px;
+  width: 640px;
+}
+
+@media only screen
+     and (min-width : 320px)
+     and (max-width : 1080px){ .vid1 iframe { height: 360px; width: 640px;}}
+
 .vid1 h1 {
   margin: 0px;
   font-size: 25px;
   font-weight: bold;
   text-align: center;
 }
+
+@media only screen
+     and (min-width : 320px)
+     and (max-width : 1080px){ .vid1 h1 { margin: 0px; font-size: 20px; font-weight: bold; text-align: center;}}
 
 .vid1 p:nth-child(2) {
   margin: 0px;
@@ -108,13 +137,21 @@ body {
   font-size: 30px;
   padding-top: 25px;
   padding-bottom: 15px;
-  
 }
+
+@media only screen
+     and (min-width : 320px)
+     and (max-width : 1080px){ .pic1 h1 { margin: 0px; font-size: 20px; text-align: center; padding-bottom: 15px; padding-top: 15px;}}
 
 .pic1 img {
   display: table;
   margin: auto;
+  height: 450px;
 }
+
+@media only screen
+     and (min-width : 320px)
+     and (max-width : 1080px){ .pic1 img { display: table; margin: auto; height: 300px;}}
 
 .pic1 p {
   margin: 0px;
@@ -125,6 +162,10 @@ body {
   font-weight: bold;
 }
 
+@media only screen
+     and (min-width : 320px)
+     and (max-width : 1080px){ .pic1 p { margin: 0px; font-size: 18px; text-align: center; font-weight: bold; padding-bottom: 70px; padding-top: 12px;}}
+
 .pic2 {
   margin: 0px;
 }
@@ -133,8 +174,11 @@ body {
   margin: 0px;
   text-align: center;
   font-size: 30px;
-  
 }
+
+@media only screen
+     and (min-width : 320px)
+     and (max-width : 1080px){ .pic2 h1 { margin: 0px; font-size: 20px; text-align: center;}}
 
 .pic2pic {
   display: table;
@@ -145,7 +189,23 @@ body {
   display: inline-block;
   margin: 15px;
   vertical-align: middle;
+  height: 300px;
 }
+
+@media only screen
+     and (min-width : 320px)
+     and (max-width : 1080px){ .pic2pic img { display: inline-block; margin: 15px; vertical-align: middle; height: 150px;}}
+
+.pic2pic img:nth-child(2) {
+  display: inline-block;
+  margin: 15px;
+  vertical-align: middle;
+  height: 80px;
+}
+
+@media only screen
+     and (min-width : 320px)
+     and (max-width : 1080px){ .pic2pic img:nth-child(2) { display: inline-block; margin: 15px; vertical-align: middle; height: 40px;}}
 
 .pic2p {
   display: table;
@@ -161,6 +221,10 @@ body {
   font-weight: bold;
 }
 
+@media only screen
+     and (min-width : 320px)
+     and (max-width : 1080px){ .pic2p p { margin: 0px; font-size: 18px; text-align: center; font-weight: bold; padding-top: 12px; padding-bottom: 70px;}}
+
 .pic3 {
   margin: 0px;
 }
@@ -169,8 +233,11 @@ body {
   margin: 0px;
   text-align: center;
   font-size: 30px;
-  
 }
+
+@media only screen
+     and (min-width : 320px)
+     and (max-width : 1080px){ .pic3 h1 { margin: 0px; text-align: center; font-size: 20px;}}
 
 .pic3pic {
   display: table;
@@ -181,7 +248,12 @@ body {
   display: inline-block;
   margin: 15px;
   vertical-align: middle;
+  height: 300px;
 }
+
+@media only screen
+     and (min-width : 320px)
+     and (max-width : 1080px){ .pic3pic img { display: inline-block; margin: 15px; vertical-align: middle; height: 150px;}}
 
 .pic3p {
   display: table;
@@ -196,6 +268,10 @@ body {
   padding-top: 12px;
   font-weight: bold;
 }
+
+@media only screen
+     and (min-width : 320px)
+     and (max-width : 1080px){ .pic3p p { margin: 0px; padding-bottom: 70px; text-align: center; font-size: 18px; padding-top: 12px; font-weight: bold;}}
 
 .pic4 {
   margin: 0px;
@@ -297,7 +373,13 @@ body {
   margin-bottom: 0px;
   margin-right: 40px;
   margin-left: 40px;
+  height: 600px;
+  width: 500px;
 }
+
+@media only screen
+     and (min-width : 320px)
+     and (max-width : 1080px){ .pdfdoc iframe { display: inline-block; margin: 0px; margin-right: 20px; margin-left: 20px; height: 450px; width: 350px;}}
 
 .pdflink {
   display: table;
@@ -312,9 +394,13 @@ body {
   display: inline-block;
   margin-top: 0px;
   margin-bottom: 0px;
-  margin-right: 275px;
-  margin-left: 275px;
+  margin-right: 220px;
+  margin-left: 220px;
 }
+
+@media only screen
+     and (min-width : 320px)
+     and (max-width : 1080px){ .pdflink p { display: inline-block; margin: 0px; margin-right: 120px; margin-left: 120px;}}
 
 .vid2 {
   display: table;
