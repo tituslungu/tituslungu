@@ -150,17 +150,17 @@
 		    }*/
 		    ul li ul.drop1{
 		        min-width: 100%;
-		        background: black;
+		        background: currentColor;
 		        display: none;
 		        position: relative;
 		        z-index: 999;
 		        left: 0;
 		    }
 		    ul li:hover ul.drop1{
-		        display: inline;
+		        display: table;
 		    }
 		    ul li ul.drop1 li{
-		        display: table;
+		        display: inline;
 		        margin: auto;
 		    }
 
@@ -178,24 +178,28 @@
 		        font-size: 40px;
 		    }
 		    ul li ul.drop1 li a:hover{
-		        color: black;
-		        background: white;
+		        color: white;
+		        background: black;
 		    }
 		    ul li ul.drop1 li ul.dropdown{
 		        min-width: 100%;
-		        background-color: black;
+		        background-color: #808080;
 		        display: none;
 		        position: relative;
 		        z-index: 999;
 		        left: 0;
 		    }
 		    ul li ul.drop1 li:hover ul.dropdown{
-		        display: inline;
+		        display: table;
 		        margin: auto;
 		    }
 		    ul li ul.drop1 li ul.dropdown li{
 		        display: inline;
 		        margin: auto;
+		    }
+		    ul li ul.drop1 li ul.dropdown li a:hover{
+		    	color: white;
+		    	background: #808080;
 		    }
 			ul li ul.drop1 li a.links{
 		    	display: inline;
