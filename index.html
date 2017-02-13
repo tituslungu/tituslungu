@@ -154,7 +154,7 @@
 		        left: 0;
 		    }
 		    ul li:hover ul.drop1{
-		        display: inline-block;
+		        display: table;
 		    }
 		    ul li ul.drop1 li{
 		        display: inline;
@@ -179,20 +179,21 @@
 		        background: black;
 		    }
 		    ul li ul.drop1 li ul.dropdown{
-		        min-width: 100%;
+		        width: 50%;
 		        background-color: #808080;
 		        display: none;
-		        position: relative;
+		        position: absolute;
 		        z-index: 999;
 		        left: 0;
 		    }
 		    ul li ul.drop1 li:hover ul.dropdown{
-		    	display: inline-block;
+		    	display: table;
 		    }
 		    ul li ul.drop1 li ul.dropdown li{
 		        display: inline;
 		        margin: auto;
 		    }
+
 		    ul li ul.drop1 li ul.dropdown li a:hover{
 		    	color: white;
 		    	background: #808080;
