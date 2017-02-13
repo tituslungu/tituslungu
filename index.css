@@ -38,6 +38,10 @@ div.nothing {
   margin: 0px;
 }
 
+@media only screen
+     and (min-width : 320px)
+     and (max-width : 1080px){ .jumbotron h1 { color: #C0C0C0;}}
+
 .jumbotron p {
   margin: 0px;
   margin-bottom: 0px;
@@ -48,6 +52,10 @@ div.nothing {
   padding-left: 4%;
   text-shadow: 3px 3px rgb(0,0,0);
 }
+
+@media only screen
+     and (min-width : 320px)
+     and (max-width : 1080px){ .jumbotron p { color: #C0C0C0;}}
 
 div.rollin h1:nth-child(1) {
     animation: rollIn 2s;
