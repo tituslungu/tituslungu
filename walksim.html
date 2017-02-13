@@ -9,6 +9,12 @@
 	<link rel="stylesheet" href="animate.css">
 
 	<style type="text/css">
+		.nav{
+   			display: inline;
+   		}
+   		.navmobile{
+   			display: none;
+   		}
 	    ul{
 	        padding: 0;
 	        list-style: none;
@@ -50,7 +56,7 @@
 	    ul li ul.dropdown li{
 	        display: block;
 	    }
-	    ul li a.links{
+		ul li a.links{
 	    	display: inline-block;
 	    	padding: 0px;
 	    	margin: 0px;
@@ -65,7 +71,122 @@
 	    	margin: 0px;
 	    	max-width: 100%;
 	    	vertical-align: middle;
+	    	width: 35px;
 	    }
+
+	    @media only screen
+	   	and (min-width : 320px)
+	   	and (max-width : 1080px){
+	   		.nav{
+	   			display: none;
+	   		}
+	   		.navmobile{
+	   			display: inline;
+	   		}
+	   		ul{
+		        padding: 0;
+		        list-style: none;
+		        background: black;
+		        margin: 0px;
+		        position: fixed;
+		        width: 100%;
+		    }
+		    ul li{
+		        display: inline;
+		        margin: 0;
+		        line-height: 21px;
+		        text-align: center;
+		    }
+		    ul li a{
+		        display: block;
+		        padding: 20px 25px;
+		    }
+		    /*ul li a img.close{
+		    	display: none;
+		    }*/
+		    ul li a:hover{
+		        color: white;
+		        background: black;
+		    }
+		    /*ul li a:hover img.open{
+		    	display: none;
+		    }
+		    ul li a:hover img.close{
+		    	display: inline;
+		    }*/
+		    ul li ul.drop1{
+		        min-width: 100%;
+		        background: currentColor;
+		        display: none;
+		        position: relative;
+		        z-index: 999;
+		        left: 0;
+		    }
+		    ul li:hover ul.drop1{
+		        display: table;
+		    }
+		    ul li ul.drop1 li{
+		        display: inline;
+		        margin: auto;
+		    }
+
+		    ul li ul.drop1 li a{
+		        display: block;
+		        margin: 0px;
+		        padding: 0px;
+		        padding-top: 35px;
+		        padding-bottom: 35px;
+		        color: white;
+		        font-weight: bold;
+		        text-transform: uppercase;
+		        text-decoration: none;
+		        text-align: center;
+		        font-size: 40px;
+		    }
+		    ul li ul.drop1 li a:hover{
+		        color: white;
+		        background: black;
+		    }
+		    ul li ul.drop1 li ul.dropdown{
+		        width: 50%;
+		        background-color: #808080;
+		        display: none;
+		        position: absolute;
+		        z-index: 999;
+		        left: 0;
+		    }
+		    ul li ul.drop1 li:hover ul.dropdown{
+		    	display: table;
+		    }
+		    ul li ul.drop1 li ul.dropdown li{
+		        display: inline;
+		        margin: auto;
+		    }
+
+		    ul li ul.drop1 li ul.dropdown li a{
+		    	line-height: 40px;
+		    }
+
+		    ul li ul.drop1 li ul.dropdown li a:hover{
+		    	color: white;
+		    	background: #808080;
+		    }
+			ul li ul.drop1 li a.links{
+		    	display: inline;
+		    	padding: 10px 20px;
+		    	margin: 0;
+		    	border-radius: 60px;
+		    	background-color: black;
+		    }
+		    ul li ul.drop1 li a.links img{
+		    	display: inline;
+		    	padding: 0px;
+		    	margin: 5px;
+		    	vertical-align: middle;
+		    	width: 75px;
+		    }
+	   	}
+
 	</style>
 
 </head>
@@ -113,26 +234,80 @@
 -->
 			<li>
 				<a class="links" href="mailto:tituslungu@gmail.com">
-					<img src="./media/emailicon.png" width="35">
+					<img src="./media/emailicon.png">
 				</a>
-			</li>
-
-			<li>
 				<a class="links" href="https://www.linkedin.com/in/titus-lungu-bb097262" target="_blank">
-					<img src="./Vecteezy_Social_Media_Icons/Social Media Icons/SVG/Circle Black White/Linkedin.svg" width="35">
+					<img src="./Vecteezy_Social_Media_Icons/Social Media Icons/SVG/Circle Black White/Linkedin.svg">
 				</a>
-			</li>
-
-			<li>
 				<a class="links" href="https://www.github.com/tituslungu" target="_blank">
-					<img src="./Vecteezy_Social_Media_Icons/Social Media Icons/SVG/Circle Black White/Github.svg" width="35">
+					<img src="./Vecteezy_Social_Media_Icons/Social Media Icons/SVG/Circle Black White/Github.svg">
+				</a>
+				<a class="links" href="https://twitter.com/TitusLungu" target="_blank">
+					<img src="./Vecteezy_Social_Media_Icons/Social Media Icons/SVG/Circle Black White/Twitter.svg">
 				</a>
 			</li>
 
-			<li>
-				<a class="links" href="https://twitter.com/TitusLungu" target="_blank">
-					<img src="./Vecteezy_Social_Media_Icons/Social Media Icons/SVG/Circle Black White/Twitter.svg" width="35">
-				</a>
+		</ul>
+	</div>
+
+	<div class="navmobile">
+		<ul>
+			<li><a href="#"><img class="open" src="./media/menu_icon.png" height="60"><!--img class="close" src="./media/menu_close_icon.png" height="60"--></a>
+				<ul class="drop1">
+					<li><a href="index.html">Titus Lungu</a></li>
+					<li><a href="./documents/Resume.pdf" target="_blank">Resume</a></li>
+					<li><a href="./documents/CV.pdf" target="_blank">Full CV</a></li>
+
+					<li>
+						<a href="#">Research &#9662;</a>
+						<ul class="dropdown">
+							<li><a onMouseOver="href='ml.html'">Machine Learning</a></li>
+						</ul>
+					</li>
+
+					<li>
+						<a href="#">Projects &#9662;</a>
+						<ul class="dropdown">
+							<li><a href="asme.html">ASME</a></li>
+							<li><a href="walksim.html">Walking Simulator</a></li>
+							<li><a href="crime.html">Senior Design</a></li>
+						</ul>
+					</li>
+
+					<li>
+						<a href="#">Industry &#9662;</a>
+						<ul class="dropdown">
+							<li><a href="./documents/cristal.pdf" target="_blank">Cristal</a></li>
+							<li><a href="./documents/swagelok.pdf" target="_blank">Swagelok</a></li>
+						</ul>
+					</li>
+
+					<li>
+						<a href="#">Events & Outreach &#9662;</a>
+						<ul class="dropdown">
+							<li><a href="cside.html">Romania Humanitarian Aid</a></li>
+							<li><a href="univproc.html">University Proceedings</a></li>
+						</ul>
+					</li>
+		<!--
+					<li><a href="contact.html">Contact</a></li>
+		-->
+					<li>
+						<a class="links" href="mailto:tituslungu@gmail.com">
+							<img src="./media/emailicon.png">
+						</a>
+						<a class="links" href="https://www.linkedin.com/in/titus-lungu-bb097262" target="_blank">
+							<img src="./Vecteezy_Social_Media_Icons/Social Media Icons/SVG/Circle Black White/Linkedin.svg">
+						</a>
+						<a class="links" href="https://www.github.com/tituslungu" target="_blank">
+							<img src="./Vecteezy_Social_Media_Icons/Social Media Icons/SVG/Circle Black White/Github.svg">
+						</a>
+						<a class="links" href="https://twitter.com/TitusLungu" target="_blank">
+							<img src="./Vecteezy_Social_Media_Icons/Social Media Icons/SVG/Circle Black White/Twitter.svg">
+						</a>
+					</li>
+
+				</ul>
 			</li>
 		</ul>
 	</div>
