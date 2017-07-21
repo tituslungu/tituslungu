@@ -102,13 +102,13 @@ body {
 }
 
 .vid1 iframe {
-  height: 250px;
+  height: 350px;
   width: 640px;
 }
 
 @media only screen
      and (min-width : 320px)
-     and (max-width : 1080px){ .vid1 iframe { height: 250px; width: 640px;}}
+     and (max-width : 1080px){ .vid1 iframe { height: 350px; width: 640px;}}
 
 .vid1 p {
   margin: 0px;
