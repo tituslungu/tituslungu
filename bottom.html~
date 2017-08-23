@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<title>Bottom</title>
+	<link href='https://fonts.googleapis.com/css?family=Inconsolata:400,700' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="index.css">
+	<link rel="stylesheet" href="animate.css">
+	<link rel="stylesheet" href="load.css">
+	<link rel="stylesheet" type="text/css" href="ellipsis.css">
+	<script src="load.js"></script>
+	
+	<style type="text/css">
+		.cc {
+		  margin: 0px;
+		}
+		
+		.cc p {
+		  display: inline;
+		  margin: 0px;
+		  font-size: 20px;
+		  color: white;
+		  text-align: left;
+		}
+		
+		h5 {
+		  margin: 0px;
+		  font-size: 15px;
+		  color: white;
+		  position: relative;
+		  bottom: 0;
+		  text-align: right;
+		}
+		
+		.twitter {
+		  margin-right: 0%;
+		  margin-left: 10%;
+		  margin-top: 0px;
+		  margin-bottom: 57px;
+		  padding-top: 30px;
+		}
+		
+		.social div {
+		  margin: 0px;
+		  display: inline-block;
+		}
+		
+		.social {
+		  margin-right: 0px;
+		  margin-left: 0px;
+		  margin-top: 0px;
+		  margin-bottom: 0px;
+		}
+		
+		.learn-more {
+		  margin: 0px;
+		  background-image: url("./media/Capture.JPG");
+		  height: 100%;
+		  width: 100%;
+		  background-repeat: no-repeat;
+		  background-size: cover;
+		  background-attachment: fixed;
+		  background-position: center;
+		}
+	</style>
+</head>
+
+<body>
+	<div class="learn-more">
+	<div class="twitter">
+		<a class="twitter-timeline" href="https://twitter.com/TitusLungu" data-widget-id="669079589998718976">Tweets by @TitusLungu</a>
+		<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+	</div>
+	
+	<div class="social">
+	<div class="twitter-butt">
+	<a href="https://twitter.com/share" class="twitter-share-button"{count} data-via="TitusLungu">Tweet</a>
+	<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+	</div>
+	
+	<div class="in-butt">
+	<script src="//platform.linkedin.com/in.js" type="text/javascript"> lang: en_US</script>
+	<script type="IN/Share" data-url="www.tituslungu.com" data-counter="top"></script>
+	</div>
+	
+	<div class="google-butt">
+	<script src="https://apis.google.com/js/platform.js" async defer></script>
+	<g:plusone size="tall"></g:plusone>
+	</div>
+	
+	<div id="fb-root"></div>
+	<script>(function(d, s, id) {
+	  var js, fjs = d.getElementsByTagName(s)[0];
+	  if (d.getElementById(id)) return;
+	  js = d.createElement(s); js.id = id;
+	  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.5&appId=619874201484812";
+	  fjs.parentNode.insertBefore(js, fjs);
+	}(document, 'script', 'facebook-jssdk'));</script>
+	
+	<div class="fb-like" data-href="https://www.tituslungu.com" data-layout="standard" data-action="like" data-show-faces="true" data-share="true" data-colorscheme="dark"></div >
+	</div>
+	
+	<div class="cc">
+		<p>&copy; 2015-2016 Titus Lungu. All rights reserved.</p>
+		<p><img src="./media/box2.gif" height="50"></p>
+	</div>
+	<div>
+		<h5>Photo credit: &copy; iStockphotos</h5>
+	</div>
+	</div>
+
+</body>
+</html>
