@@ -1,0 +1,183 @@
+.nav {
+  background-color: black;
+  margin: 0px;
+}
+
+body {
+  margin: 0px;
+}
+
+.main {
+  display: table;
+  margin: auto;
+  padding-top: 125px;
+}
+
+.stylify {
+  margin: 0px;
+  background-color: #FFFFFF;
+  display: inline-block;
+}
+
+.stylify img {
+  height: 130px;
+}
+
+@media only screen
+     and (min-width : 320px)
+     and (max-width : 1080px){ .stylify img { height: 92px;}}
+
+.jumbotron {
+  margin: 0px;
+  padding-bottom: 20px;
+  background-color: #FFFFFF;
+  display: inline-block;
+  padding-left: 80px;
+}
+
+.jumbotron h1 {
+  margin: 0px;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 30px;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+@media only screen
+     and (min-width : 320px)
+     and (max-width : 1080px){ .jumbotron h1 { margin: 0px; text-transform: uppercase; font-weight: bold; font-size: 22px; text-align: center; padding-bottom: 10px;}}
+
+.jumbotron h3 {
+  margin: 0px;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 30px;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+@media only screen
+     and (min-width : 320px)
+     and (max-width : 1080px){ .jumbotron h3 { margin: 0px; text-transform: uppercase; font-weight: bold; font-size: 22px; text-align: center; padding-bottom: 10px;}}
+
+.jumbotron h2 {
+  margin: 0px;
+  font-size: 25px;
+  color: black;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+@media only screen
+     and (min-width : 320px)
+     and (max-width : 1080px){ .jumbotron h2 { margin: 0px; font-size: 20px; text-align: center; padding-bottom: 20px;}}
+
+.content {
+  display: table;
+  margin: 0px;
+  margin-left: 17%;
+  margin-right: 17%;
+  background-color: #FFFFFF;
+}
+
+@media only screen
+     and (min-width : 320px)
+     and (max-width : 1080px){ .content { display: table; margin: 0px; margin-left: 5%; margin-right: 5%; background-color: #FFFFFF;}}
+
+.content p {
+  font-size: 18px;
+  padding-bottom: 30px;
+  text-align: justify;
+}
+
+@media only screen
+     and (min-width : 320px)
+     and (max-width : 1080px){ .content p { padding-bottom: 30px; font-size: 12px; text-align: justify;}}
+
+.vid1 {
+  display: table;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+.vid1 iframe {
+  height: 350px;
+  width: 640px;
+}
+
+@media only screen
+     and (min-width : 320px)
+     and (max-width : 1080px){ .vid1 iframe { height: 350px; width: 640px;}}
+
+.vid1 p {
+  margin: 0px;
+  padding-bottom: 15px;
+  font-size: 16px;
+  text-align: center;
+}
+
+.pdf {
+  display: table;
+  margin: auto;
+  padding-bottom: 20px;
+  background-color: #FFFFFF;
+}
+
+.pdf p {
+  display: table;
+  margin: auto;
+  font-size: 15px;
+}
+
+.cc {
+  margin: 0px;
+}
+
+.cc p {
+  display: inline;
+  margin: 0px;
+  font-size: 20px;
+  color: white;
+  text-align: left;
+}
+
+h5 {
+  margin: 0px;
+  font-size: 15px;
+  color: white;
+  position: relative;
+  bottom: 0;
+  text-align: right;
+}
+
+.twitter {
+  margin-right: 0%;
+  margin-left: 10%;
+  margin-top: 0px;
+  margin-bottom: 57px;
+  padding-top: 30px;
+}
+
+.social div {
+  margin: 0px;
+  display: inline-block;
+}
+
+.social {
+  margin-right: 0px;
+  margin-left: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.learn-more {
+  margin: 0px;
+  background-image: url("./media/Capture.JPG");
+  height: 100%;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+}
